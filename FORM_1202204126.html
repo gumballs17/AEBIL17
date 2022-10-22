@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Login</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <style>
+        *{
+	        margin: 10;
+	        padding: 100;
+	        list-style: none;
+	        font-family: 'Roboto', sans-serif;
+        }
+        body{
+	        background: #fff8eb;
+	        font-size: 14px;
+	        line-height: 15px;
+        }
+        header{
+            background-color: #f30f1a;
+            padding: 10pt;
+            width: 300px;
+            text-align: center;
+            font-size: 20px;
+            color: white;
+        }
+        .background{
+	        width: 340px;
+	        margin: 50px auto;
+	        background: #fff;
+	        padding: 20px;
+        }
+        @media (max-width:300pt) {
+            header,.background{
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div class="background">
+            <header>Registrasi Aplikasi myIndiHome</header>
+            <br>
+            <div>
+                <label for="email">Email</label><br>
+                <input style="width: 300px; height: 30px;" type="email" id="email" name="email" placeholder="Email aktif" required>
+            </div>
+            <br>
+            <div>
+                <label for="lname">Nama</label><br>
+                <input style="width: 300px; height: 30px;" type="text" placeholder="Nama lengkap" required>
+            </div>
+            <br>
+            <div>
+                <label for="lNIK">NIK</label><br>
+                <input style="width: 300px; height: 30px;" type="text" placeholder="Sesuai KTP" required>
+            </div>
+            <br>
+            <div>
+                <label for="lname">Nomor HP</label><br>
+                <input style="width: 300px; height: 30px;" type="text" id="Hp" name="HpK" placeholder="Nomor HP aktif" required>
+            </div>
+            <br>
+            <div>
+                <label for="bdate">Tanggal Lahir</label><br>
+                <input style="width: 120px; height: 30px;" type="date" id="bdate" name="bdate" required>
+            </div>
+            <br>
+            <div>
+                <label for="paket">Jenis Kelamin </label><br>
+                <select style="width: 125px; height: 30px;" id="jk" name="jk" required>
+                    <option value="1">-</option>
+                    <option value="2">Laki-Laki</option>
+                    <option value="3">Perempuan</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="paket">Paket Internet</label><br>
+                <select style="width: 300px; height: 30px;" id="jk" name="jk" required>
+                    <option value="1">-</option>
+                    <option value="2">30Mbps/Rp 280.000</option>
+                    <option value="3">40Mbps/Rp 310.000</option>
+                    <option value="3">60Mbps/Rp 350.000</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="pass">Password</label><br>
+                <input style="width: 300px; height: 30px;" type="password" id="pass" name="pass" placeholder="Min 8 Karakter" maxlength="12" required>
+            </div>
+            <br>
+            <div>
+                <label for="pass">Ulangi Password</label><br>
+                <input style="width: 300px; height: 30px;" type="password" id="pass" name="pass" placeholder="Ulangi Password" maxlength="12" required>
+            </div>
+            <br>
+            <div style="width: 300px; height: 30px;">
+                <input type="checkbox" id="setuju" name="setuju" min="0" max="99" value="1" required>
+                <label for="setuju">Saya setuju dengan Syarat & Ketentuan yang berlaku di dalam aplikasi myIndiHome</label>
+            </div>
+            <br>
+            <div>
+                <table style="width: 500px;">
+                <tr>
+                    <td><input style="width: 50px;" type="reset"></td>
+                    <td><input style="width: 50px;" type="submit"></td>
+                </tr>
+                </table>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
