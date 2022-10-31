@@ -1,0 +1,73 @@
+.navbar{
+    background-color: #ffff;
+}
+.banner {
+    margin-top: 50px;
+    background-image: url('../TUGAS\ 2/images/desaine.png');
+    background-size: cover;
+    padding-top: 5%;
+    padding-bottom: 8%;
+}
+.colom_typo1{
+    text-align: justify;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.judul{
+    text-align: center;
+    padding-top: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.grid_carousel{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.grid_card{
+    margin-left: 120px;
+    margin-right: 80px;
+}
+.card{
+    padding:10px;
+    margin-top: 20px;
+}
+.card-img-top{
+    width: 287px;
+    height: 250px;
+}
+.sticky-bottom{
+    color: aliceblue;
+    text-align:center; 
+    padding: 3px; 
+    background-color: #353252; 
+    width: auto;
+}
+.mapouter {
+    position: relative;
+    text-align: right;
+    width: 600px;
+    height: 400px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    width: 600px;
+    height: 400px;
+}
+
+.gmap_iframe {
+    width: 600px !important;
+    height: 400px !important;
+}
+.colom_typo2{
+    margin: 80px;
+    text-align: justify;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.colom_typo3{
+    padding: 1%;
+    text-align: left;
+    color: rgba(219, 212, 212, 0.815);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
