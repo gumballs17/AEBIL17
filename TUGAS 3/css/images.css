@@ -1,0 +1,16 @@
+.navbar{
+    background-color: #ffff;
+}
+
+.all_margin{
+    margin-top: 90px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.judul{
+    color: #353252;
+    margin-top: 80px;
+    text-align: left;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
